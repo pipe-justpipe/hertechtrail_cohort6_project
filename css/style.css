@@ -66,7 +66,7 @@ time, mark, audio, video {
 }
 body {
   font-family: "Larsseit";
-  color: #aeafb9;
+  color: ivory;
 }
 
 .container-fluid {
@@ -198,6 +198,9 @@ nav.fixed-top {
 .change .bar1 {
   -webkit-transform: rotate(-42deg) translate(-2px, 6px);
   transform: rotate(-42deg) translate(-2px, 6px);
+  -moz-transform: rotate(-42deg) translate(-2px, 6px);
+  -ms-transform: rotate(-42deg) translate(-2px, 6px);
+  -o-transform: rotate(-42deg) translate(-2px, 6px);
 }
 
 .change .bar2 {
@@ -207,6 +210,9 @@ nav.fixed-top {
 .change .bar3 {
   -webkit-transform: rotate(46deg) translate(-4px, -8px);
   transform: rotate(46deg) translate(-4px, -8px);
+  -moz-transform: rotate(46deg) translate(-4px, -8px);
+  -ms-transform: rotate(46deg) translate(-4px, -8px);
+  -o-transform: rotate(46deg) translate(-4px, -8px);
 }
 
 .scroll-button {
