@@ -1130,7 +1130,7 @@ header .logo {
 	float: left;
 	margin-left: 20px;
 	margin-right: 50px;
-	margin-top: 25px;
+	margin-top: 13px;
 	position: relative;
 }
 header .logo a {
@@ -1143,7 +1143,7 @@ header .logo a {
 	color: transparent;
 	width: 150px;
 	height: 40px;
-	background: url("../images/Techaxylogo.png") no-repeat center;
+	background: url("../images/Techaxylogo-removebg-preview.png") no-repeat center;
 	background-size: 150px 40px;
 }
 
