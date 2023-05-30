@@ -90,7 +90,7 @@ nav.fixed-top {
   border-bottom: 1px solid rgba(255, 255, 255, 0.341);
 }
 .header .container p.follow {
-  color: #ffffff;
+  color: red;
   font-family: "segoeui";
   margin-bottom: 10px;
 }
