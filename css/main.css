@@ -108,7 +108,7 @@ a:hover, a:focus, a:active {
  */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "poppins-semibold", sans-serif;
-	color: red;
+	color: rgb(130, 77, 28);
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -162,7 +162,7 @@ p.lead {
 	font-family: "lora-regular", serif;
 	font-size: 2rem;
 	line-height: 1.8;
-	color: ivory;
+	color:black;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -706,7 +706,7 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-	background: #bebebe;
+	background: rgb(254, 182, 115);
 	color: #000000;
 	outline: 0;
 }
@@ -982,7 +982,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	left: 0;
 	top: -3rem;
 	font-family: "poppins-bold", sans-serif;
-	color: ivory;
+	color: black;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -1235,11 +1235,11 @@ header .logo a {
 }
 .menu-toggle.is-clicked span::before {
 	top: 0;
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
+	-webkit-transform:;
+	-ms-transform:;
 	transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
+	-moz-transform:;
+	-o-transform:;
 }
 .menu-toggle.is-clicked span::after {
 	bottom: 0;
@@ -1382,6 +1382,18 @@ header .logo a {
 	letter-spacing: .3rem;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
+        /* Define the animation */
+        @keyframes animateText {
+            0% { opacity: 0; transform: translateX(-50px); -webkit-transform: translateX(-50px); -moz-transform: translateX(-50px); -ms-transform: translateX(-50px); -o-transform: translateX(-50px); }
+            100% { opacity: 1; transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); }
+        }
+
+        /* Apply the animation to the text */
+        .animated-text {
+            animation: animateText 1s cubic-bezier(0.075, 0.82, 0.165, 1) infinite alternate;
+            -webkit-animation: animateText 1s cubic-bezier(0.075, 0.82, 0.165, 1) infinite alternate;
+}
+
 .intro-content .intro-position {
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
@@ -1409,7 +1421,7 @@ header .logo a {
 	color: rgba(255, 255, 255, 0.3);
 }
 .intro-content .button {
-	color: #FFFFFF !important;
+	color: rgb(130, 77, 28) !important;
 	border-color: rgba(255, 255, 255, 0.3);
 	border-top-left-radius: 50% 50%;
 	border-top-right-radius: 50% 50% ;
@@ -1534,10 +1546,17 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background:black;
+	background-image: url("/images/brwn4.jpg");
+	background-repeat: no-repeat;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
-	color: ivory;
+	color: black;
+	font-weight: bold;
+	width: 100%;
+	height: 100%;
+	min-height: 720px;
+	display: table;
+	background-size: cover;
 }
 #about .section-intro {
 	margin-bottom: 3rem;
@@ -1586,7 +1605,7 @@ header .logo a {
 }
 .about-content .info-list li strong {
 	font-family: "poppins-bold", sans-serif;
-	color: ivory;
+	color: black;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -1595,8 +1614,8 @@ header .logo a {
 .about-content .info-list li span {
 	display: block;
 	font-family: "poppins-regular", sans-serif;
-	color: ivory;
-	font-size: 1.5rem;
+	color: rgb(130, 77, 28);
+	font-size: 1.8rem;
 	line-height: 1;
 }
 .about-content .skill-bars {
@@ -1605,7 +1624,9 @@ header .logo a {
 
 .button-section {
 	text-align: center;
+
 }
+
 .button-section .button {
 	width: 250px;
 }
@@ -2223,10 +2244,10 @@ header .logo a {
 	border-radius: 50%;
 	display: inline-block;
 	background: #FFFFFF;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-ms-border-radius: 50%;
-	-o-border-radius: 50%;
+	-webkit-border-radius:;
+	-moz-border-radius:;
+	-ms-border-radius:;
+	-o-border-radius:;
 }
 .owl-theme .owl-controls .owl-page.active span {
 	background: rgb(254, 182, 115);
@@ -2419,7 +2440,7 @@ header .logo a {
 	padding: 0 3rem;
 	margin-top: 4.8rem;
 	width: 100%;
-	background: rgb(254, 182, 115);
+	background: rgb(130, 77, 28);
 	color: #FFFFFF;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
@@ -2566,7 +2587,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 footer {
-	padding-bottom: 3rem;
+	padding: 4rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
 }
