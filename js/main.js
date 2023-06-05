@@ -204,6 +204,9 @@
 
   	});  
 
+
+	/*animated text*/
+
 	
   
 

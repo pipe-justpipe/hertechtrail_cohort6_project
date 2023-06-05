@@ -758,8 +758,8 @@ button.stroke.large, .button.stroke.large {
 	line-height: 5.4rem !important;
 }
 button.stroke:hover, .button.stroke:hover {
-	border: 3px solid rgb(254, 182, 115);
-	color: rgb(254, 182, 115);
+	border: 3px solid rgb(130, 77, 28);
+	color: rgb(130, 77, 28);
 }
 button::-moz-focus-inner, input::-moz-focus-inner {
 	border: 0;
@@ -1546,7 +1546,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #151515 url(../images/brwn4.jpg) no-repeat center;
+	background: #151515 url(../images/brwn3.jpg) no-repeat center;
 	background-repeat: no-repeat;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
