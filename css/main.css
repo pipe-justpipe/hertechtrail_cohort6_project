@@ -1546,7 +1546,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background-image: url("/images/brwn4.jpg");
+	background: #151515 url(../images/brwn4.jpg) no-repeat center;
 	background-repeat: no-repeat;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
