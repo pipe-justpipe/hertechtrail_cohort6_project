@@ -82,6 +82,11 @@ body {
 	font-size: 1.7rem;
 	line-height: 3rem;
 }
+.formyname{
+	background: linear-gradient( to right, blue, grey );
+	 -webkit-background-clip: text ;
+	 -webkit-text-fill-color: transparent;
+}
 
 /**
  * links - (_document-setup.scss)
@@ -1126,11 +1131,19 @@ header .row {
 header .top-bar {
 	display: block;
 	background: black;
+	border-top-left-radius:20px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:20px;
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
 	left: 90px;
 	top: 0;
+	-webkit-border-radius:50;
+	-moz-border-radius:50;
+	-ms-border-radius:50;
+	-o-border-radius:50;
 }
 header .logo {
 	float: left;
@@ -1557,6 +1570,7 @@ header .logo a {
 	min-height: 720px;
 	display: table;
 	background-size: cover;
+
 }
 #about .section-intro {
 	margin-bottom: 3rem;
