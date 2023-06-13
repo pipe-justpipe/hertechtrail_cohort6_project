@@ -1131,10 +1131,10 @@ header .row {
 header .top-bar {
 	display: block;
 	background: black;
-	border-top-left-radius:20px;
+	border-top-left-radius:50px;
 	border-top-right-radius:0px;
 	border-bottom-left-radius:0px;
-	border-bottom-right-radius:20px;
+	border-bottom-right-radius:50px;
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
@@ -1193,11 +1193,11 @@ header .logo a {
 	top: 50%;
 	bottom: auto;
 	left: auto;
-	-moz-transition:;
-	-o-transition:;
-	-webkit-transition:;
-	-ms-transition:;
 	transition: background 0.2s ease-in-out;
+	-webkit-transition: background 0.2s ease-in-out;
+	-moz-transition: background 0.2s ease-in-out;
+	-ms-transition: background 0.2s ease-in-out;
+	-o-transition: background 0.2s ease-in-out;
 }
 .menu-toggle span::before, .menu-toggle span::after {
 	content: '';
@@ -1248,11 +1248,7 @@ header .logo a {
 }
 .menu-toggle.is-clicked span::before {
 	top: 0;
-	-webkit-transform:;
-	-ms-transform:;
 	transform: rotate(45deg);
-	-moz-transform:;
-	-o-transform:;
 }
 .menu-toggle.is-clicked span::after {
 	bottom: 0;
@@ -1341,7 +1337,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/axy2.jpg) no-repeat center bottom;
+	background: #151515 url(../images/back2.jpeg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1447,10 +1443,6 @@ header .logo a {
 	font-size: 1.3rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
-	-webkit-border-radius:;
-	-moz-border-radius:;
-	-ms-border-radius:;
-	-o-border-radius:;
 }
 .intro-content .button:hover, .intro-content .button:focus {
 	border-color:rgb(254, 182, 115);
@@ -1558,7 +1550,7 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
-#about {
+ #about {
 	background: #151515 url(../images/brwn3.jpg) no-repeat center;
 	background-repeat: no-repeat;
 	padding-top: 12rem;
@@ -1572,6 +1564,16 @@ header .logo a {
 	background-size: cover;
 
 }
+
+.ml2 {
+	font-weight: 900;
+	font-size: 3.5em;
+  }
+  
+  .ml2 .letter {
+	display: inline-block;
+	line-height: 1em;
+  }
 #about .section-intro {
 	margin-bottom: 3rem;
 }
@@ -1894,6 +1896,9 @@ header .logo a {
 	-webkit-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
+}
+.paragraph{
+	color: rgb(130, 77, 28);
 }
 
 #portfolio .overlay {
@@ -2258,10 +2263,6 @@ header .logo a {
 	border-radius: 50%;
 	display: inline-block;
 	background: #FFFFFF;
-	-webkit-border-radius:;
-	-moz-border-radius:;
-	-ms-border-radius:;
-	-o-border-radius:;
 }
 .owl-theme .owl-controls .owl-page.active span {
 	background: rgb(254, 182, 115);
